@@ -50,7 +50,6 @@ module.exports = function zeros(expression) {
 pos = result.length;
 
 while (true) {
-    let foundPos = result.indexOf(0, pos);
     if (result.charAt(pos) != 0) break;
 		
     zero++;
