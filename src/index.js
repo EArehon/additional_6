@@ -63,8 +63,9 @@ while (true) {
     zero++;
     pos--;
 }
+let fatality = zero - 1;
 
-return zero;
+return fatality;
 }
 
 
