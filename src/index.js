@@ -64,6 +64,7 @@ while (true) {
     pos--;
 }
 
+return zero;
 }
 
 
