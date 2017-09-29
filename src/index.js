@@ -1,4 +1,4 @@
-module.exports = function function zeros(expression) {
+module.exports = function zeros(expression) {
   let n = 5;
   let result = '1';
   let zero = 0;		      		// количество нулей
