@@ -47,18 +47,11 @@ module.exports = function zeros(expression) {
     }
   }
 
-
-
-
-
-
-
-
-pos = a.length;
+pos = result.length;
 
 while (true) {
-    let foundPos = a.indexOf(0, pos);
-    if (a.charAt(pos) != 0) break;
+    let foundPos = result.indexOf(0, pos);
+    if (result.charAt(pos) != 0) break;
 		
     zero++;
     pos--;
@@ -68,9 +61,7 @@ let fatality = zero - 1;
 return fatality;
 }
 
-
-
-
+//console.log(zeros('1!!*2!!*3!!*4!!*5!!*6!!*7!!*8!!*9!!*10!!*1!!*2!!*3!!*4!!*5!!*6!!*7!!*8!!*9!!*10!!'));
 
 
 
